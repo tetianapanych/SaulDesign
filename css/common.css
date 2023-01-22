@@ -1,0 +1,78 @@
+/*-------------BUTT0N------------*/
+.button {
+	text-align: center;
+	padding: 10px 32px;
+	font-weight: 700;
+	color: #EEEEEE;
+	background-color: #00ADB5;
+	border-radius: 24px;
+	transition: background-color 0.3s ease 0s;
+}
+
+.button:hover {
+	background-color: rgba(57, 62, 70, 0.75);
+}
+
+.button_dark {
+	background-color: rgba(57, 62, 70, 0.75);
+}
+
+.button_dark:hover,
+.button_dark.active {
+	background-color: #00ADB5;
+}
+
+/*-------------SOCIAL------------*/
+.social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.social__link {
+	text-align: center;
+	background-color: #393E46;
+	height: 48px;
+	flex: 0 0 48px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease 0s;
+}
+
+.social__link:hover {
+	background-color: #61676e;
+}
+
+/*-------------TITLE------------*/
+.title {
+	font-weight: 700;
+	font-size: 64px;
+	color: #EEEEEE
+}
+
+.title span {
+	color: #00ADB5;
+}
+
+@media (max-width: 991.98px) {
+	.title {
+		font-size: 52px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.title {
+		font-size: 45px;
+	}
+}
+
+@media (max-width: 479.98px) {
+	.title {
+		font-size: 35px;
+	}
+}
+
+/*--------------------------------*/
